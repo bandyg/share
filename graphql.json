@@ -1,0 +1,5 @@
+Object types are the basic units of a GraphQL schema. They represent a kind of object that can be fetched from the service, and have fields that describe their properties and relations. For example, you can define an object type called Fruit with fields like name, price, and nutrients. Each field has a type, which can be another object type or a scalar type.
+
+Scalar types are the primitive types of data that can be returned by a GraphQL service. They include String, Int, Float, Boolean, ID, and any custom types you define. Scalar types cannot have subfields, unlike object types.
+
+Root types are special object types that define the entry points of a GraphQL service. They are Query, Mutation, and Subscription. Query is the root type for fetching data, Mutation is the root type for modifying data, and Subscription is the root type for real-time updates
